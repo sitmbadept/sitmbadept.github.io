@@ -1,3 +1,8 @@
+DROP DATABASE IF EXISTS emp_demo;
+CREATE DATABASE IF NOT EXISTS emp_demo;
+USE emp_demo;
+
+
 DROP TABLE IF EXISTS employee;
 CREATE TABLE employee (
 ID text,
